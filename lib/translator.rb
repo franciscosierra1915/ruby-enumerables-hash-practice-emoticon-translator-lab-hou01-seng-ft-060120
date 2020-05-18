@@ -22,6 +22,7 @@ def get_japanese_emoticon(file_path, eng_emo)
     else 
       return
       message
+    end
   end
 end
 
