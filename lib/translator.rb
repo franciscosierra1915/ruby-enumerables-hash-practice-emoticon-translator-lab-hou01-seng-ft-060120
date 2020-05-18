@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, eng_emo)
       return idioms[:japanese] if idioms[:english] == eng_emo
   end
 else 
- return  "else"
+ return "else" if idioms[:english] != eng_emo
  end
 end
 
