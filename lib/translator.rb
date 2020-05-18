@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path, eng_emo)
   library.each do |meaning, idioms|
       return idioms[:japanese] if idioms[:english] == eng_emo
     else 
+      message
   end
 end
 
